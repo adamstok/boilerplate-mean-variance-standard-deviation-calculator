@@ -28,3 +28,11 @@ def calculate(listed):
         outp['standard deviation'].append(list(arr.std(axis=1)))
         outp['standard deviation'].append(arr.flatten().std())
 
+        outp['max'].append(list(arr.max(axis=0)))
+        outp['max'].append(list(arr.max(axis=1)))
+        outp['max'].append(arr.flatten().max())
+
+        outp['min'].append(list(arr.min(axis=0)))
+        outp['min'].append(list(arr.min(axis=1)))
+        outp['min'].append(arr.flatten().min())
+

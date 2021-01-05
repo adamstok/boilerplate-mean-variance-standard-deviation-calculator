@@ -1,8 +1,6 @@
 import numpy as np
 
-def calculate(list):
 
+def calculate(listed):
+    pass
 
-
-
-    return calculations

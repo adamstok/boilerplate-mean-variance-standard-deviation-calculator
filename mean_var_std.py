@@ -24,3 +24,7 @@ def calculate(listed):
         outp['variance'].append(list(arr.var(axis=1)))
         outp['variance'].append(arr.flatten().var())
 
+        outp['standard deviation'].append(list(arr.std(axis=0)))
+        outp['standard deviation'].append(list(arr.std(axis=1)))
+        outp['standard deviation'].append(arr.flatten().std())
+

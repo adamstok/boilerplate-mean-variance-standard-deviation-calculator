@@ -20,3 +20,7 @@ def calculate(listed):
         outp['mean'].append(list(arr.mean(axis=1)))
         outp['mean'].append(arr.flatten().mean())
 
+        outp['variance'].append(list(arr.var(axis=0)))
+        outp['variance'].append(list(arr.var(axis=1)))
+        outp['variance'].append(arr.flatten().var())
+

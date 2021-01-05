@@ -36,3 +36,9 @@ def calculate(listed):
         outp['min'].append(list(arr.min(axis=1)))
         outp['min'].append(arr.flatten().min())
 
+        outp['sum'].append(list(arr.sum(axis=0)))
+        outp['sum'].append(list(arr.sum(axis=1)))
+        outp['sum'].append(arr.flatten().sum())
+
+        return outp
+
